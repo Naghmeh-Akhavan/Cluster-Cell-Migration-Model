@@ -4,17 +4,17 @@ function d = initial_setup()
 % 
 % By Naghmeh Akhavan 2024
 
-%% Optional variables Change according to appliction
+%% Optional variables Change according to application
 d.r=10;                         % radius of the cluster
 d.L=200;                        % length of the domain
-d.perc=0;                       % percentage of the intercetion depth
-d.x0=57.482;                    % center of the first intercetion
-d.x4=111.96;                    % center of the second intercetion
-d.xhat0=7.5;                    % half length of the first intercetion
-d.xhat4= 10;                    % half length of the second intercetion
-d.b0=0.25279+d.perc*0.25279;    % 1st intercetion depth
-d.b4=0.668666+d.perc*0.668666;  % 2nd intercetion depth
-d.rb=.18+ d.perc*.18;           % radius of the baseline tube
+d.perc=0;                       % percentage of the intersection depth
+d.x0=57.482;                    % center of the first intersection
+d.x4=111.96;                    % center of the second intersection
+d.xhat0=7.5;                    % half length of the first intersection
+d.xhat4= 10;                    % half length of the second intersection
+d.b0=0.25279+d.perc*0.25279;    % 1st intersection depth
+d.b4=0.668666+d.perc*0.668666;  % 2nd intersection depth
+d.rb=0.18;                       % radius of the baseline tube
 d.x=0:0.01:d.L;                 % nodes in the domain
 d.new_l = 829.416;              % half max
 d.ode_s = .504;                 % maximum saturation
