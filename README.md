@@ -9,7 +9,7 @@ The parameter of the model can be set in `initial_setup.m` You may run `main.m` 
 - Figure 2B: Plot of the chemoattractant concentration gradient (Fitted model)
 - Figure 2C: Plot of the tracking cluster speed with experimental data
 - Figure 2F: Plot of cluster position with sensitivity analysis of the second intersection depth
-- Figure 2G: 
+- Figure 2G: Plot of cluster position in control domain two intersections vs control domain with a single cell
 - Figure 2H: Plot of speed of cluster with sensitivity analysis of the second intersection depth
 - Figure 3F: Plot of the cluster speed in the control domain (Fitted model) and overexpression chemoattractant concentration
 - Figure 3G: Plot of the position of center of cluster in the control domain (Fitted model) and overexpression chemoattractant concentration
@@ -46,7 +46,7 @@ To replicate the results shown in Figures below, you need to adjust the paramete
   - `b0=b4=0.18` (dark red)
   - `b0=0.25, b4=0.18` (orange).
 For each trajectory save and run `figure(1)` in `main.m` file.
-- Figure 2G: in `initial_setup.m` file, no changes. Save and run `figure(4)` in `main.m` file (black). 
+- Figure 2G: in `initial_setup.m` file, no changes. Save and run `figure(1)` in `main.m` file (black). in `initial_setup.m` file, the radius of cluster `r=3`. Save and run `figure(1)` in `main.m` file (magenta). 
 - Figure 2H: in `initial_setup.m` file, change the depth of first and second intersection parameter `b0, b4`as below
   - `b0=0.25, b4=0.66` (black),
   - `b0=0.25, b4=0.86` (dashed red)
