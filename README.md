@@ -1,5 +1,5 @@
 
-# Modeling of Collective Cell Migration 
+# Modeling of Border Cell Cluster Migration 
 
 This repository contains the code that describes the position of the border cell cluster during the migration through the *Drosophila Melanogaster* egg chamber. The details can be found in the paper *"Chemotaxis of Drosophila Border Cells in Modulated by Tissue Geometry Through Dispersion of Chemoattractants"* by Alex George, Naghmeh Akhavan, Bradford E. Peercy, and Michelle Starz-Gaiano. The code is written in MATLAB R2022a by Naghmeh Akhavan.
 
