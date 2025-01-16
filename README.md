@@ -1,11 +1,11 @@
 
 # Modeling of Collective Cell Migration 
 
-This repository contains the code that describes the position of the border cell cluster during the migration through the *Drosophila Melanogaster* egg chamber. The details can be find on the paper *Chemotaxis of Drosophila Border Cells in Modulated by Tissue Geometry Through Dispersion of Chemoattractatns* by Alex George, Naghmeh Akhavan, Bradford E. Peercy, and Michelle Starz-Gaiano. The code is written in MATLAB R2022a by Naghmeh Akhavan.
+This repository contains the code that describes the position of the border cell cluster during the migration through the *Drosophila Melanogaster* egg chamber. The details can be found on the paper *Chemotaxis of Drosophila Border Cells in Modulated by Tissue Geometry Through Dispersion of Chemoattractatns* by Alex George, Naghmeh Akhavan, Bradford E. Peercy, and Michelle Starz-Gaiano. The code is written in MATLAB R2022a by Naghmeh Akhavan.
 
 ## Usage
 
-The parameter of the model can be set in `initial_setup.m` You may run `main.m` file through MATLAB. This code will to get following plots:
+The parameter(s) of the model can be set in `initial_setup.m` You may run `main.m` file through MATLAB. This code will produce following plots:
 - Figure 2B: Plot of the chemoattractant concentration gradient (Fitted model)
 - Figure 2C: Plot of the tracking cluster speed with experimental data
 - Figure 2F: Plot of cluster position with sensitivity analysis of the second intersection depth
@@ -19,7 +19,7 @@ The parameter of the model can be set in `initial_setup.m` You may run `main.m` 
 
 ## Parameters
 
-Following parameters might be set:
+The following parameters might be set:
 ```
 x0       Center of the first intersection
 x4       Center of the second intersection
@@ -35,7 +35,7 @@ rb       Radius of the cluster
 
 Following figures are presented in the paper "Tissue Geometry Modulates Chemoattractant Distribution to Direct Drosophila Border Cell Migration Behaviors"
 
-To replicate the results shown in Figures below, you need to adjust the parameters as follow:
+To replicate the results shown in the Figures below, you need to adjust the parameters as follows:
 
 - Figure 2B: in `initial_setup.m` file, no changes. Save and run `figure(4)` in `main.m` file.
 - Figure 2C: in `initial_setup.m` file, no changes. Save and run `figure(2)` in `main.m` file.
