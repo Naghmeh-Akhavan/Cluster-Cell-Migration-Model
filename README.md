@@ -33,7 +33,7 @@ rb       Radius of the cluster
 
 ## Details of the Figures
 
-Following figures are presented in the paper *Tissue Geometry Modulates Chemoattractant Distribution to Direct Drosophila Border Cell Migration Behaviors*
+Following figures are presented in the paper *Chemotaxis of Drosophila Border Cells in Modulated by Tissue Geometry Through Dispersion of Chemoattractatns*
 
 To replicate the results shown in the Figures below, you need to adjust the parameters as follows:
 
