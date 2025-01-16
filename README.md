@@ -27,7 +27,7 @@ xhat0    Half length of the first intersection
 xhat4    Half length of the second intersection
 b0       First intersection depth
 b4       Second intersection depth
-sigma    Chemoattractant secretion rate
+s=1/A    Chemoattractant secretion rate
 rb       Radius of the cluster
 ```
 
